@@ -1,7 +1,6 @@
 ul, ol {list-style-type: none;}
 a {text-decoration: none;}
 button{cursor: pointer;}
-img{display: block;}
 
 body{
 font-family: "Roboto", sans-serif;
@@ -76,7 +75,7 @@ color: #404bbf;
 .hero-btn:focus{
 background: #404bbf;
 }
-.section-list{
+.section-list-item{
         background-color: #FFFFFF
 }
 .section-list-item-header{
