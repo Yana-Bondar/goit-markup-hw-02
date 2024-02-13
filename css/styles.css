@@ -13,7 +13,7 @@ background-color: #fff;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
@@ -37,28 +37,30 @@ color: #2e2f42;
 .menu-link:active{
 color: #404bbf;
 }
+.main-contacts{
+        font-style: normal;
+}
 .contact-link{
         font-family: inherit;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: inherit;
-        font-style: normal;
 }
 .contact-link:hover,
 .contact-link:focus{
 color: #404bbf;
 }
+.hero{
+        background: #2e2f42;
+}
 .hero-text{
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
-        background: #2e2f42;
-        width: 1440px;
-        height: 600px;
+        text-align: center
 }
 
 .hero-btn{
@@ -68,19 +70,15 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-
 }
 .hero-btn:hover,
 .hero-btn:focus{
 background: #404bbf;
 }
-
+.section-list{
+        background-color: #FFFFFF
+}
 .section-list-item-header{
         font-weight: 500;
         font-size: 20px;
@@ -93,30 +91,25 @@ background: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.benefits {
+        background-color: #FFFFFF;
+}
 
 .section-header{
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        text-align: center;
         color: #2e2f42;
+        text-align: center
 }
-.section-list-item-header-center{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-}
-.section-list-item-text-center{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-}
+
 .section-team{
         background: #f4f4fd;
+}
+
+.portfolio {
+        background-color: #FFFFFF;
 }
 .page-footer{
 background: #2e2f42;
